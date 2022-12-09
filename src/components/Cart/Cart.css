@@ -1,0 +1,108 @@
+.cartHeader {
+  display: grid;
+  grid-template-columns: 4fr 3fr 4fr;
+  background-color: burlywood;
+  padding: 0.5vmax;
+  justify-items: center;
+}
+
+.cartContainer {
+  display: grid;
+  grid-template-columns: 4fr 3fr 4fr;
+  justify-items: center;
+  padding: 1vmax;
+  margin-bottom: 10vmax;
+  align-items: center;
+}
+
+.cartInput {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: stretch;
+  width: 4vmax;
+}
+
+.cartInput > input {
+  padding: 0.5vmax;
+  text-align: center;
+}
+
+.cartInput > button {
+  border: 1px solid;
+  background-color: rgb(247, 142, 4);
+  font-size: 1.6vmax;
+  border: none;
+  cursor: pointer;
+}
+
+.cartGrossTotal {
+  border-top: 0.1vmax solid burlywood;
+}
+
+.cartGrossTotalBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vmax;
+  align-items: center;
+}
+.checkOutBtn {
+  text-align: right;
+  margin: 1vmax;
+}
+
+.checkOutBtn > Button {
+  margin-right: 1vmax;
+}
+
+.emptyCart {
+  margin-top: 10vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.emptyCart > svg {
+  font-size: 4vmax;
+  color: brown;
+  margin: 1vmax;
+}
+
+.emptyCart > p {
+  font-size: 1.5vmax;
+  font-weight: 550;
+  color: brown;
+  margin-bottom: 0.5vmax;
+}
+.emptyCart > a {
+  text-decoration: none;
+  color: black;
+  padding: 1vmax;
+  font-size: 1.5vmax;
+  font-weight: 540;
+  border-radius: 0.2vmax;
+  background-color: burlywood;
+}
+
+.checkOutBtn > button {
+  background-color: burlywood;
+  border: none;
+  font-size: 1.5vmax;
+  font-weight: 500;
+  padding: 1vmax;
+  color: white;
+  border-radius: 0.2vmax;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.checkOutBtn > button:hover {
+  background-color: rgb(253, 152, 1);
+  font-size: 1.6vmax;
+}
+.cartGrossTotalBox > p {
+  font-size: 1.5vmax;
+  font-weight: 550;
+  color: brown;
+}

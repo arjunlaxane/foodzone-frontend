@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  /* width: 90vw; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-width: 100%; */
+}
+
+.productCard {
+  width: 20vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 1.5vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+
+.productCard > img {
+  width: 100%;
+}
+
+.productCard > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productCard > p {
+  font-family: 'Roboto';
+  font-size: 2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.productCard > div > span {
+  margin: 0.5vmax;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font: 300 1.6vmax 'Roboto';
+}
+
+.productCard > span {
+  margin: 0.5vmax;
+  color: rgb(98, 87, 228);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4vmax;
+}
+
+.productCard:hover {
+  box-shadow: 0.1vmax 0.1vmax 0.5vmax 0.1vmax rgba(15, 15, 15, 0.26);
+  transform: translateY(-1vmax);
+}

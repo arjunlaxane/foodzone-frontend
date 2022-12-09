@@ -1,0 +1,46 @@
+.about {
+  position: relative;
+  top: 5vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vmax;
+}
+#myImage {
+  width: 25%;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.about > h2 {
+  text-align: center;
+  color: blueviolet;
+  font-size: 2.5vmax;
+}
+.about > p {
+  text-align: center;
+  font-size: 2vmax;
+  color: rgb(238, 12, 136);
+}
+@media screen and (max-width: 550px) {
+  #myImage {
+    width: 50%;
+  }
+  .about {
+    top: 15vmax;
+  }
+  .about > p {
+    font-size: 2.5vmax;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #myImage {
+    width: 20%;
+  }
+  .about {
+    top: 1vmax;
+  }
+  .about > p {
+    font-size: 1.5vmax;
+  }
+}

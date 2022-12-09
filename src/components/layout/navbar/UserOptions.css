@@ -1,0 +1,43 @@
+.user-profile {
+  margin-bottom: 0.5vmax;
+  width: 5vmax;
+  height: 5vmax;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#profile-options {
+  text-decoration: none;
+  font-weight: 530;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  font-size: 1.5vmax;
+  border: 0.1vmax solid rgb(247, 244, 240);
+  width: 8vmax;
+  border-radius: 0.2vmax;
+  background-color: white;
+  padding: 0.5vmax;
+}
+
+#profile-options:hover {
+  background-color: azure;
+  color: burlywood;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profile-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  right: 1vmax;
+  top: 0.8vmax;
+}

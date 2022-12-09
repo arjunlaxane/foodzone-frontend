@@ -1,0 +1,27 @@
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vmax;
+  border: 0.1vmax solid burlywood;
+  margin: 1vmax;
+}
+
+.reviewCard > p,
+.reviewCard > span {
+  margin: 0.5vmax;
+}
+.reviewCard > p {
+  font-size: 1.6vmax;
+}
+
+@media screen and (max-width: 900px) {
+  .reviewCard > p {
+    font-size: 3vmax;
+  }
+  .reviewCard > span {
+    /* margin: 0.5vmax; */
+    font-size: 2vmax;
+    letter-spacing: 0.1vmax;
+  }
+}

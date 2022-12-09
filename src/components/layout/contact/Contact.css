@@ -1,0 +1,26 @@
+.contact {
+  text-align: center;
+  position: relative;
+  top: 15vmax;
+}
+
+.connect-link > a {
+  margin: 1vmax;
+}
+
+.head {
+  text-align: center;
+  color: rgba(20, 6, 145, 0.705);
+  font-size: 2.4vmax;
+}
+#mail {
+  color: brown;
+}
+#portfolio {
+  color: blueviolet;
+}
+@media screen and (max-width: 500px) {
+  .contact {
+    top: 25vmax;
+  }
+}

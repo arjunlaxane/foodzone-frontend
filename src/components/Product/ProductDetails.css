@@ -1,0 +1,183 @@
+.ProductDetails {
+  width: 90vw;
+  padding: 1vmax;
+}
+
+.image {
+  width: 20vmax;
+  margin-bottom: 2vmax;
+}
+
+.image-box {
+  width: 97vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.CarouselImage {
+  width: 19vmax;
+  height: 20vmax;
+  object-fit: contain;
+  border-radius: 1vmax;
+}
+.detailsBlock-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.2vmax solid burlywood;
+}
+.detailsBlock-1 > h2 {
+  margin: 0.5vmax;
+}
+.detailsBlock-2 > span {
+  margin: 0.5vmax;
+}
+
+.detailsBlock-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.2vmax solid burlywood;
+}
+.detailsBlock-3 {
+  text-align: center;
+}
+
+.detailsBlock-3 > h1 {
+  width: 50vw;
+  border-bottom: 0.2vmax solid burlywood;
+  margin: 0.5vmax;
+}
+
+.detailsBlock-3-1 {
+  width: 50vw;
+  border-bottom: 0.2vmax solid burlywood;
+  margin: 0.5vmax;
+}
+
+.detailsBlock-3-1-1 > input {
+  width: 3.28vmax;
+  padding: 0.5vmax;
+  color: black;
+  font-weight: 700;
+  font-size: 1vmax;
+  background-color: rgb(238, 211, 211);
+  border: none;
+}
+
+.detailsBlock-3-1-1 > button {
+  width: 3vmax;
+  font-size: 1vmax;
+  padding: 0.5vmax;
+  background-color: burlywood;
+  border: none;
+  cursor: pointer;
+}
+.detailsBlock-3-1 > button {
+  border-radius: 0.5vmax;
+  width: 10vmax;
+  margin: 1vmax;
+  background-color: brown;
+  border: none;
+  font-size: 1vmax;
+  font-weight: 600;
+  color: white;
+  padding: 1vmax;
+  cursor: pointer;
+}
+
+.detailsBlock-3 > p {
+  border-bottom: 0.2vmax solid burlywood;
+  margin: 1vmax;
+  font-size: 1.8vmax;
+  font-weight: 500;
+  color: blue;
+}
+
+.redColor {
+  color: red;
+}
+.greenColor {
+  color: green;
+}
+
+.detailsBlock-4 {
+  width: 50vw;
+  font-size: 1.8vmax;
+  color: blue;
+  font-weight: 500;
+  padding: 1vmax;
+  text-align: center;
+}
+
+.detailsBlock-4 > p {
+  padding-top: 0.5vmax;
+  color: rgb(53, 51, 51);
+}
+
+.image-box > button {
+  border-radius: 0.5vmax;
+  width: 10vmax;
+  margin: 1vmax;
+  background-color: rgb(223, 139, 29);
+  border: none;
+  font-size: 1vmax;
+  font-weight: 600;
+  color: white;
+  padding: 1vmax;
+  cursor: pointer;
+}
+
+.reviewsHeading {
+  text-align: center;
+  margin: 1vmax;
+  color: brown;
+  font-size: 1.8vmax;
+  margin: 2vmax;
+  border-bottom: 0.1vmax solid rgb(203, 172, 233);
+}
+
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.noReviews {
+  text-align: center;
+  margin: 5vmax;
+  font-size: 2vmax;
+  color: rgb(115, 3, 219);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+  .detailsBlock-3-1-1 > input {
+    font-size: 1.3vmax;
+    padding-top: 0.3vmax;
+    color: black;
+  }
+  .detailsBlock-3-1-1 > button {
+    font-size: 1.6vmax;
+    padding-top: 0.1vmax;
+    padding-bottom: 0.4vmax;
+  }
+
+  .detailsBlock-4 {
+    font-size: 1.9vmax;
+    letter-spacing: 0.1vmax;
+  }
+
+  .detailsBlock-4 > p {
+    font-size: 2vmax;
+  }
+}
